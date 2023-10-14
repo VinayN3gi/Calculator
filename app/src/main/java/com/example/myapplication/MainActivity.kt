@@ -2,6 +2,7 @@ package com.example.myapplication
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import com.example.myapplication.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -14,4 +15,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(view)
 
     }
+
+    fun AllClear(view: View) {}
+    fun Backspace(view: View) {}
+    fun number(view: View) {}
+    fun Equals(view: View) {}
+    fun Operation(view: View) {}
+
 }
